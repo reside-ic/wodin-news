@@ -1,0 +1,27 @@
+baseURL: "http://reside-ic.github.io/wodin-news/"
+languageCode: "en-gb"
+title: "Wodin News"
+theme: "PaperMod"
+enableEmoji: true
+
+params:
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml
+  DateFormat: "1 January 2006"
+  disableThemeToggle: true
+  disableSpecial1stPost: true
+  hideMeta: false
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: epimodels
+      name: EpiModels
+      url: https://epimodels.dide.ic.ac.uk
+      weight: 30
