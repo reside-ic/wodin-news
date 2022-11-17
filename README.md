@@ -26,12 +26,19 @@ The front matter options that might be useful:
 ---
 title: "Add a title here"
 date: 2022-10-20T13:51:48+01:00
-tags: ["release"]
-
-hideSummary: false # set this to true to prevent the summary
-summary: "A string here" # set this to force the summary content
+tags: ["Feature"]
+version: ["wodin v0.1.4"]
 ---
 ```
+
+## Writing posts
+
+Please include a tag in your post header using `tags: ["Feature"]`. Please use one of the following tags:
+* Feature - a new feature that users have asked for or will notice
+* Update - a smaller update to something in the UI, or a less user facing update change, or a change to logic
+* App - a whole new app type
+
+Include a version with the `version` field (e.g., `version: ["wodin v0.1.4"]`).
 
 ## Develop
 

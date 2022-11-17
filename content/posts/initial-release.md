@@ -1,6 +1,8 @@
 ---
 title: "Initial release"
 date: 2022-10-20T13:51:48+01:00
+version: ["wodin v0.1.4"]
+tags: ["Feature"]
 ---
 
 We have made the initial release of Wodin, with the basic app running the first practical for the MSc course :tada:

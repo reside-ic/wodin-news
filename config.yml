@@ -1,15 +1,26 @@
 baseURL: "http://reside-ic.github.io/wodin-news/"
 languageCode: "en-gb"
 title: "Wodin News"
-theme: "PaperMod"
+theme: ["papermod-changelog", "PaperMod"]
 enableEmoji: true
 
 params:
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml
-  DateFormat: "1 January 2006"
+  DateFormat: "2 January 2006"
   disableThemeToggle: true
   disableSpecial1stPost: true
   hideMeta: false
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: Wodin News
+    Content: What's new and updated in Wodin
+  tags:
+    - text: Update
+      colour: "#FFBA11"
+    - text: Feature
+      colour: "#14CC80"
+    - text: App
+      colour: "#E31837"
 
 menu:
   main:
