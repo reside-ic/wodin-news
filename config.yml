@@ -6,7 +6,7 @@ enableEmoji: true
 
 params:
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml
-  DateFormat: "2 January 2006"
+  DateFormat: "2 Jan 2006"
   disableThemeToggle: true
   disableSpecial1stPost: true
   hideMeta: false
