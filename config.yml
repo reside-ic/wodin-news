@@ -1,4 +1,4 @@
-baseURL: "http://reside-ic.github.io/wodin-news/"
+baseURL: "https://reside-ic.github.io/wodin-news/"
 languageCode: "en-gb"
 title: "Wodin News"
 theme: ["papermod-changelog", "PaperMod"]
