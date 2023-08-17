@@ -9,7 +9,7 @@ The short course is approaching, and we have made lots of improvements since [th
 
 * The code panel is resizeable - drag the sliders to make it take more or less space
 * Warnings and errors are now indicated with symbols at the line they occur at in the editor
-* Users can download the results of sensitivity analysis
+* Users can download the summary results of sensitivity analysis
 * Help is available in the application, currently for writing code only
 * Users can create saved parameter sets, in order to compare several versions of a model at once
 * More feedback is provided on long-running actions such as fitting a model or running sensitivity
